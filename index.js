@@ -23,7 +23,7 @@ module.exports = {
 		'inferno/no-unescaped-entities': 2,
 		'inferno/no-unknown-property': 2,
 		'inferno/no-unused-prop-types': 2,
-		'inferno/prop-types': 2,
+		// 'inferno/prop-types': 2,
 		'inferno/inferno-in-jsx-scope': 2,
 		'inferno/self-closing-comp': 2,
 		'inferno/style-prop-object': 2,
