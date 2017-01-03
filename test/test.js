@@ -21,7 +21,7 @@ test('main', t => {
 	t.true(isPlainObj(conf.rules));
 
 	const errors = runEslint('var app = <div className="foo">Unicorn</div>', conf);
-	t.true(hasRule(errors, 'react/react-in-jsx-scope'));
+	t.true(hasRule(errors, 'inferno/inferno-in-jsx-scope'));
 });
 
 test('space', t => {
@@ -31,5 +31,5 @@ test('space', t => {
 	t.true(isPlainObj(conf.rules));
 
 	const errors = runEslint('<App>\n\t<Hello/>\n</App>', conf);
-	t.true(hasRule(errors, 'react/jsx-indent'));
+	t.true(hasRule(errors, 'inferno/jsx-indent'));
 });
